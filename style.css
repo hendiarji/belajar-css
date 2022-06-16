@@ -1,0 +1,368 @@
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+ */
+
+body {
+  font-family: "Inter", sans-serif;
+  /* background-color: #353535; */
+}
+/* navbar =============================== */
+#navbar .container-fluid {
+  background-color: #fff;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20;
+}
+.navbar-nav {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #7a7a7a;
+}
+.button-primary button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #ffbf59;
+  width: 164px;
+  height: 65px;
+  border: none;
+
+  background-color: transparent;
+}
+.button-primary button:hover {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #ffbf59;
+  width: 164px;
+  height: 65px;
+  border-radius: 4px;
+  border-color: #ffbf59;
+  background-color: #fff;
+  border-style: solid;
+}
+
+/* hero =========================== */
+.img-hero {
+  height: 400px;
+  width: auto;
+  bottom: 0;
+  right: 0;
+  /* margin-top: 100px; */
+}
+#hero h1 {
+  width: 640px;
+  height: 145px;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 70px;
+
+  color: #091932;
+}
+#hero p {
+  width: 637px;
+  height: 114px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #545454;
+}
+#hero button {
+  width: 197px;
+  height: 65px;
+  border: none;
+  background: linear-gradient(93.35deg, #ff6a64 0%, #ff9675 100%);
+  box-shadow: 0px 25px 52px rgba(255, 170, 166, 0.43);
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+/* pembelajaran */
+#pembelajaran h1 {
+  /* width: 355px; */
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 70px;
+  letter-spacing: 1px;
+  color: #091932;
+}
+
+.card-pembelajaran {
+  /* width: 429.78px; */
+  width: 400px;
+  height: auto98px;
+  /* height: 313px; */
+  background: #ffffff;
+  border: 0.5px solid #acacac;
+  border-radius: 10px;
+  /* padding: 35px; */
+  padding: 20px;
+}
+
+/* width: 100%;
+height: 313px; */
+
+.card-img {
+  width: 1919.68px;
+  /* width: 1000px; */
+  height: 400px;
+  /* height: 439.78px; */
+}
+
+#pembelajaran h3 {
+  /* width: 235.93px; */
+  width: 300px;
+  height: 32.17px;
+
+  font-weight: 600;
+  font-size: 26.8097px;
+}
+#pembelajaran p {
+  font-weight: 400;
+
+  /* display: flex; */
+  /* align-items: center; */
+}
+#pembelajaran button {
+  width: auto;
+  height: auto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+
+  background: linear-gradient(180deg, #e9754d 0%, #be522e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  border: none;
+}
+/* .bg-pembelajaran {
+  width: 1919.68px;
+  height: 439.78px;
+  left: 0px;
+  top: 0px;
+
+
+  background: linear-gradient(180deg, #ffc549 0.04%, #ffbb62 100.09%);
+} */
+
+.bg-pembelajaran {
+  background: linear-gradient(180deg, #ffc549 0.04%, #ffbb62 100.09%);
+  /* width: 1919.68px; */
+  /* height: 439.78px; */
+  bottom: 0px;
+  /* flex-wrap: nowrap; */
+}
+
+/* etalase */
+
+#etalase {
+  margin-top: 100px;
+}
+
+#etalase h3 {
+  /*  */
+  width: 300px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #091932;
+}
+#etalase p {
+  width: 668px;
+  height: 95px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+
+  letter-spacing: 0.5px;
+
+  color: #545454;
+}
+#etalase button {
+  width: 197px;
+  height: 65px;
+  background: linear-gradient(90deg, #fe714c 0%, #fda94b 100%);
+  box-shadow: 0px 28px 58px rgba(254, 115, 76, 0.38);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.etalase1 {
+  width: 638.8px;
+  height: 562.95px;
+  left: 1135px;
+  top: 2055.47px;
+}
+.etalase2 {
+  /* width: 846.1px; */
+  width: 700px;
+  /* height: 448.42px; */
+  height: auto;
+  left: 113.9px;
+  top: 2754.93px;
+}
+.etalase3 {
+  width: 610.59px;
+  height: 675.72px;
+  left: 1061.61px;
+  top: 3390.28px;
+}
+
+/* kisah */
+#kisah h2 {
+  height: 70px;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 70px;
+  letter-spacing: 0.5px;
+  color: #091932;
+}
+#kisah p {
+  /* width: 989.54px; */
+  height: 117.22px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #545454;
+}
+.arrow-left {
+  width: 16.31px;
+  height: 31.23px;
+  left: 364.92px;
+  top: 4339.13px;
+
+  border-radius: 1px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.arrow-right {
+  width: 16.31px;
+  height: 31.23px;
+  left: 1555.1px;
+  top: 4339.13px;
+
+  background: linear-gradient(180deg, #e9754d 0%, #be522e 100%);
+  border-radius: 1px;
+}
+
+#ayo {
+  margin-top: 100px;
+}
+.ayo {
+  width: 1620px;
+  height: 453.83px;
+  left: 150px;
+  top: 4787px;
+
+  background: #ffffff;
+  border: 0.5px solid #acacac;
+  border-radius: 10px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+#ayo h3 {
+  /* width: 389px; */
+  height: 70px;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 70px;
+
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.5px;
+
+  color: #091932;
+}
+
+#ayo p {
+  /* width: 530.68px; */
+  height: 70px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 194% */
+
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #555555;
+}
+.input-group {
+  width: 500px;
+  height: 80px;
+
+  background: #ffffff;
+  box-shadow: 0px 22px 68px rgba(5, 8, 24, 0.11);
+  border-radius: 4px;
+}
+.button-secondary {
+  width: 197px;
+  height: 65px;
+  background: #ea5c1f;
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+}
+
+/* kontak */
+
+#kontak {
+  width: 1920px;
+  height: 789px;
+  left: 0px;
+  top: 5086.71px;
+
+  background: linear-gradient(180deg, #ffc549 0%, #ffbb62 100%);
+}
+.kontak {
+  font-weight: 600;
+  /* margin-top: 100px; */
+  color: #fff;
+}
+
+#kontak a {
+  font-weight: 600;
+  /* margin-top: 100px; */
+  color: #fff;
+  text-decoration: none;
+}
